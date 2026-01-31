@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 162860, guid: 88f747c19931a4f4f9e4d9bccdcd8225, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 487758, guid: 88f747c19931a4f4f9e4d9bccdcd8225, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.290886
@@ -455,6 +459,10 @@ PrefabInstance:
     - target: {fileID: 131680, guid: a68b7fcda6e7fad4d8683b3324733344, type: 3}
       propertyPath: m_Name
       value: Character_Hero_Knight_Female 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 131680, guid: a68b7fcda6e7fad4d8683b3324733344, type: 3}
+      propertyPath: m_TagString
+      value: Hero
       objectReference: {fileID: 0}
     - target: {fileID: 422474, guid: a68b7fcda6e7fad4d8683b3324733344, type: 3}
       propertyPath: m_LocalPosition.x
@@ -898,10 +906,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e50c62e94781a4a41a6858b1a2f0d0fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeftClick
-  curChar: {fileID: 0}
+  curChar: {fileID: 1814587277}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 456
+--- !u!114 &1814587277 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7295366183353000143, guid: 88f747c19931a4f4f9e4d9bccdcd8225, type: 3}
+  m_PrefabInstance: {fileID: 14915224}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9dcacea3f2823a40b6ca3a70841a037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hero
 --- !u!1 &1869632036
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,5 +961,5 @@ SceneRoots:
   - {fileID: 1000492835}
   - {fileID: 767320798}
   - {fileID: 14915224}
-  - {fileID: 1505808277}
   - {fileID: 479744231}
+  - {fileID: 1505808277}
