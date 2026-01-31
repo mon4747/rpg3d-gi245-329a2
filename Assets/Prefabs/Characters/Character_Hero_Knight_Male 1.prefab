@@ -2907,7 +2907,7 @@ GameObject:
   - component: {fileID: 9566420}
   - component: {fileID: 389260422270614563}
   - component: {fileID: -7295366183353000143}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Character_Hero_Knight_Male 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
